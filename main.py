@@ -19,8 +19,8 @@ def run_spotify_etl():
     #CONSTANTES
     DATABASE_LOCATION = "sqlite:///my_played_tracks.sqlite"
     USER_ID = "LucianoVenialgo"
-    CLIENT_ID = "eb6e3bff2d974bf1b7fdf616d01200ba"
-    CLIENT_SECRET = "75aad46701ec4abeaa2f682441176847"
+    CLIENT_ID = "YOUR_CLIENT_ID"
+    CLIENT_SECRET = "YOUR_CLIENT_SECRET"
     SPOTIPY_REDIRECT_URI = "https://google.com"
     SCOPE = 'user-read-recently-played'
 
